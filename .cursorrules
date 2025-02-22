@@ -1,0 +1,32 @@
+# Project Guidelines
+
+## Tech Stack
+- Node.js
+- Playwright
+- Google Maps API
+- Handlebars
+- Next.js
+- Vercel / Netlify
+
+## Code Style and Structure
+- Write modular, reusable Node.js code with clear separation of concerns.
+- Use functional programming; avoid unnecessary mutations.
+- Use descriptive variable names (e.g., `extractedData`, `processHtml`).
+
+## Scraper Guidelines
+- Extract structured JSON data including business name, address, phone, and services.
+- Save extracted data in structured directories based on domain names.
+- Ensure robust error handling for failed scrapes and network issues.
+
+## Website Templates
+- Use Handlebars for templating; Next.js or static HTML for templates.
+- Programmatically inject extracted data into templates before hosting.
+- Deploy on Vercel or Netlify with automated deployment scripts.
+
+## Performance Optimization
+- Optimize Playwright settings to reduce load time and unnecessary resource usage.
+- Ensure SEO-friendly markup and lightweight assets for fast load times.
+
+## Future Features
+- Integrate Google Maps API for location-based scraping.
+- Develop AI-based chatbots and automated lead management features.
