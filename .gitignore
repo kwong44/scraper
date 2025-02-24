@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Output directories
+aggregate-data/
+**/screenshot.png
+**/business-data.json
+emergencyplumbersca.com/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Playwright specific
+/test-results/
+/playwright-report/
+/playwright/.cache/ 
